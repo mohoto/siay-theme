@@ -1188,6 +1188,164 @@
         "name": "Bannière avec image"
       }
     },
+    "video-banner": {
+      "name": "Bannière avec video",
+      "settings": {
+        "image": {
+          "label": "Première video"
+        },
+        "image_2": {
+          "label": "Deuxième video"
+        },
+        "stack_images_on_mobile": {
+          "label": "Empiler des images sur un mobile"
+        },
+        "show_text_box": {
+          "label": "Afficher le conteneur sur le bureau"
+        },
+        "image_overlay_opacity": {
+          "label": "Opacité de la superposition d'images"
+        },
+        "show_text_below": {
+          "label": "Afficher le conteneur sur le mobile"
+        },
+        "image_height": {
+          "label": "Hauteur de la bannière",
+          "options__1": {
+            "label": "Adapter à la première image"
+          },
+          "options__2": {
+            "label": "Petit"
+          },
+          "options__3": {
+            "label": "Moyenne"
+          },
+          "info": "Pour optimiser vos résultats, utilisez une image ayant un rapport d'aspect de 3:2. [En savoir plus](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+          "options__4": {
+            "label": "Grand"
+          }
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "En haut à gauche"
+          },
+          "options__2": {
+            "label": "En haut au centre"
+          },
+          "options__3": {
+            "label": "En haut à droite"
+          },
+          "options__4": {
+            "label": "Au milieu à gauche"
+          },
+          "options__5": {
+            "label": "Centré au milieu"
+          },
+          "options__6": {
+            "label": "Au milieu à droite"
+          },
+          "options__7": {
+            "label": "En bas à gauche"
+          },
+          "options__8": {
+            "label": "En bas au centre"
+          },
+          "options__9": {
+            "label": "En bas à droite"
+          },
+          "label": "Position du contenu sur le bureau"
+        },
+        "desktop_content_alignment": {
+          "options__1": {
+            "label": "Gauche"
+          },
+          "options__2": {
+            "label": "Centre"
+          },
+          "options__3": {
+            "label": "Droite"
+          },
+          "label": "Alignement du contenu du bureau"
+        },
+        "mobile_content_alignment": {
+          "options__1": {
+            "label": "Gauche"
+          },
+          "options__2": {
+            "label": "Centre"
+          },
+          "options__3": {
+            "label": "Droite"
+          },
+          "label": "Alignement du contenu sur mobile"
+        },
+        "mobile": {
+          "content": "Mise en page sur mobile"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Titre",
+          "settings": {
+            "heading": {
+              "label": "Titre",
+              "default": "Bannière avec video"
+            }
+          }
+        },
+        "text": {
+          "name": "Texte",
+          "settings": {
+            "text": {
+              "label": "Description",
+              "default": "Fournissez des détails à votre clientèle sur l’image/les images ou le contenu de la bannière du modèle."
+            },
+            "text_style": {
+              "options__1": {
+                "label": "Corps"
+              },
+              "options__2": {
+                "label": "Sous-titre"
+              },
+              "options__3": {
+                "label": "Majuscule"
+              },
+              "label": "Style de texte"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Boutons",
+          "settings": {
+            "button_label_1": {
+              "label": "Texte du premier bouton",
+              "info": "Laisser le texte vide pour masquer le bouton.",
+              "default": "Texte du bouton"
+            },
+            "button_link_1": {
+              "label": "Lien du premier bouton"
+            },
+            "button_style_secondary_1": {
+              "label": "Utiliser le style du bouton en relief"
+            },
+            "button_label_2": {
+              "label": "Texte du deuxième bouton",
+              "info": "Laisser le texte vide pour masquer le bouton.",
+              "default": "Texte du bouton"
+            },
+            "button_link_2": {
+              "label": "Lien du deuxième bouton"
+            },
+            "button_style_secondary_2": {
+              "label": "Utiliser le style du bouton en relief"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Bannière avec video"
+      }
+    },
     "image-with-text": {
       "name": "Image avec texte",
       "settings": {
