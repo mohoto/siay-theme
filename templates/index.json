@@ -94,6 +94,9 @@
         "padding_bottom": 36
       }
     },
+    "fcollection_list": {
+      "type": "collection-list",
+    },
     "video": {
       "type": "video",
       "settings": {
